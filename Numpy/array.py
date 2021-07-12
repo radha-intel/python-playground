@@ -25,7 +25,3 @@ data = pd.read_csv('data.csv').values
 print("data from .csv file", +data)
 print(type(data))
 print(data[15479][2])
-#data = np.genfromtxt('data.csv', delimiter=',')
-#res = data[:,1]
-#res = data[:,0:2]
-#print(data)
