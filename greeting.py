@@ -1,0 +1,16 @@
+appdirs==1.4.4
+click==8.0.1
+colorama==0.4.4
+distlib==0.3.2
+filelock==3.0.12
+Flask==2.0.1
+itsdangerous==2.0.1
+Jinja2==3.0.1
+MarkupSafe==2.0.1
+numpy==1.21.0
+pandas==1.3.0
+python-dateutil==2.8.1
+pytz==2021.1
+six==1.16.0
+virtualenv==20.4.7
+Werkzeug==2.0.1
