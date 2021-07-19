@@ -2,7 +2,6 @@ import numpy as np
 import csv
 import pandas as pd
 
-
 #Creating Numpy arrays with Random values
 a1 = np.random.rand(3,3)
 print(a1)
