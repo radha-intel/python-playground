@@ -2,12 +2,11 @@ from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
-def greet():
+@app.route('/<user>', methods=['POST'])
+def greet(user):
     if request.method == 'POST':
-        user = request.form['usr']
         return redirect(url_for('user', usr = user))
-    return render_template("greet.html")
+    return f"<h1>Good Morning!!</h1>"
 
 @app.route('/<usr>')
 def user(usr):
